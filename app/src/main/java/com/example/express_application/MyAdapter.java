@@ -47,6 +47,7 @@ public class MyAdapter extends BaseAdapter {
         return 0;
     }
 
+
     @SuppressLint("ServiceCast")
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
