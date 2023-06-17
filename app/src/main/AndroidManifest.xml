@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Express_application"
+        tools:targetApi="31">
+        <activity
+            android:name=".Admin_confirmbooking"
+            android:exported="false" />
+        <activity
+            android:name=".Detils_Darclin"
+            android:exported="false" />
+        <activity
+            android:name=".Detils_Kaya"
+            android:exported="false" />
+        <activity
+            android:name=".Booking_Darclinic"
+            android:exported="false" />
+        <activity
+            android:name=".Booking_kayaclinic"
+            android:exported="false" />
+        <activity
+            android:name=".Booking_Cosmeclinic"
+            android:exported="false" />
+        <activity
+            android:name=".Confirm_Booking"
+            android:exported="false" />
+        <activity
+            android:name=".Dermacli_book"
+            android:exported="false" />
+        <activity
+            android:name=".Kaya_Book"
+            android:exported="false" />
+        <activity
+            android:name=".DetailsCosmlinc"
+            android:exported="false" />
+        <activity
+            android:name=".Cheakout_page"
+            android:exported="false" />
+        <activity
+            android:name=".edit_admin"
+            android:exported="false" />
+        <activity
+            android:name=".Adminlogin"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_user"
+            android:exported="false" />
+        <activity
+            android:name=".Done_Booking"
+            android:exported="false" />
+        <activity
+            android:name=".Booking_page"
+            android:exported="false" />
+        <activity
+            android:name=".DetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".submit_comment"
+            android:exported="false" />
+        <activity
+            android:name=".clinicpage"
+            android:exported="false" />
+        <activity
+            android:name=".darclinc"
+            android:exported="false" />
+        <activity
+            android:name=".kayacli"
+            android:exported="false" />
+        <activity
+            android:name=".cosmclin"
+            android:exported="false" />
+        <activity
+            android:name=".laclinic"
+            android:exported="false" />
+        <activity
+            android:name=".Servies_page"
+            android:exported="false" />
+        <activity
+            android:name=".Comment_page"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor_page"
+            android:exported="false" />
+        <activity
+            android:name=".Clinic_page"
+            android:exported="false" />
+        <activity
+            android:name=".mnu_appl"
+            android:exported="false" />
+        <activity
+            android:name=".Next_page"
+            android:exported="false" />
+        <activity
+            android:name=".First_Page"
+            android:exported="false" />
+        <activity
+            android:name=".Signup_app"
+            android:exported="false" />
+        <activity
+            android:name=".Pssword_forget"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

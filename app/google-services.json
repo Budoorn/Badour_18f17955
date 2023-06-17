@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "369529308739",
+    "project_id": "express-booking-e3197",
+    "storage_bucket": "express-booking-e3197.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369529308739:android:a4909a132e33444674f6f6",
+        "android_client_info": {
+          "package_name": "com.example.express_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369529308739-503l8hf5a06ssnelruk44fu4f75r71c6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7q5rubn_c9jCzDYtTeiaHhvBA5h7RaYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369529308739-503l8hf5a06ssnelruk44fu4f75r71c6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
